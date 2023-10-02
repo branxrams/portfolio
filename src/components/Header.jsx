@@ -31,7 +31,7 @@ const Header = () => {
                     src={IconGit} 
                     alt="BranxRams linkedl" />
             </a>
-            <a href="https://www.linkedin.com/in/branxrams/">
+            <a href="https://www.linkedin.com/in/branxu/">
                 <img 
                     className='w-10'
                     src={Iconlnkl} 
