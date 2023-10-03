@@ -7,9 +7,9 @@ const About = () => {
             Sobre mi
         </h2>
         <p className='text-gray-400 font-bold text-justify'>
-            Soy Ingeniero en Sistemas y Desarrollador Web FullStack con 1 año de experiencia en construccion de sitios web dinamicos. <br /> <br />
-            Mi enfoque prinicipal en estos ultimos dias es crear productos para clientes que requieran soluciones rapidas, eficaces y adptables a sus necesidades principales.<br /> <br /> 
-            En mi tiempo libre suelo dedicarme al deporte, buscando retos que me guien al crecimiento personal y compartiendo tiempo de calidad con mi pareja en la construccion de un meojr hogar.
+        Soy Ingeniero en Sistemas y Desarrollador Web FullStack con 1 año de experiencia en construcción de sitios web dinámicos.<br /> <br />
+            Mi enfoque principal en estos últimos días es crear productos para clientes que requieran soluciones rápidas, eficaces y adaptables a sus necesidades principales.<br /> <br /> 
+            En mi tiempo libre, suelo dedicarme al deporte, buscando retos que me guíen al crecimiento personal y compartiendo tiempo de calidad con mi pareja en la construcción de un mejor hogar.
         </p>
     </div>
   )

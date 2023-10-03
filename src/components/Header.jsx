@@ -9,7 +9,7 @@ const Header = () => {
         <p className='block text-gray-100 font-bold text-xl text-center lg:text-left'>Desarrollador Web FullStack</p>
         <p className='block text-gray-400 font-bold mt-3 lg:pr-40 text-center lg:text-left'>Construyo productos accesibles, inclusivos y con experiencia digital para la web.</p>
         
-        <nav className='hidden text-white mt-16 mb md:block'>
+        <nav className='hidden text-white mt-16 lg:block'>
         <ul className='grid gap-3 w-max pt-10'>
             <li>
                 <a href="#about">Sobre mi</a>
