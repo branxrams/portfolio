@@ -11,7 +11,7 @@ const Content = () => {
       <About/>
     </section>
       <section id='projects' className='mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24'>
-        <h2 className='text-center text-3xl font-bold mb-10'>Proyectos</h2>
+        <h2 className='text-gray-300 text-center text-3xl font-bold mb-10'>Proyectos</h2>
           {dataProject.map(project => (
             <a href={project.url}>
               <Projects

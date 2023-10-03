@@ -31,9 +31,9 @@ const Projects = ({ project }) => {
 
         <div className="w-5/6 ml-4">
           <a href={url}>
-            <h3 className="mb-3 font-bold">{title}</h3>
+            <h3 className="text-gray-300 mb-3 font-bold">{title}</h3>
           </a>
-          <p>{description}</p>
+          <p className="text-justify text-gray-400 font-medium">{description}</p>
         </div>
       </article>
     </>
