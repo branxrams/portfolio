@@ -12,10 +12,29 @@ const Header = () => {
         <nav className='hidden text-white mt-16 lg:block'>
         <ul className='grid gap-3 w-max pt-10'>
             <li>
-                <a href="#about">Sobre mi</a>
+                <a 
+                    className="group flex items-center py-3"
+                    href="#about">
+                        <span className="mr-4 h-0.5 w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                        <span
+                            className='font-bold uppercase tracking-widest text-gray-300 group-hover:text-slate-200 group-focus-visible:text-slate-200'
+                        >
+                            Sobre mí
+                        </span>
+                </a>
             </li>
             <li>
-                <a href="#projects">Proyectos</a>
+                <a 
+                    className='group flex items-center py-3'
+                    href="#projects">
+                    <span class="nav-indicator mr-4 h-0.5 w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                    <span 
+                        className='font-bold uppercase tracking-widest text-gray-300 group-hover:text-slate-200 group-focus-visible:text-slate-200'
+                    >
+                        Proyectos 
+                    </span>
+                
+                </a>
             </li>
         </ul>
             
@@ -28,8 +47,8 @@ const Header = () => {
                 <img
                     className='w-12'
                     src={IconGit} 
-                    alt="BranxRams linkedl" />
-                    Github
+                    alt="BranxRams GitHub" />
+                    <span>Github</span> 
 
             </a>
             <a 
@@ -39,8 +58,8 @@ const Header = () => {
                 <img 
                     className='w-12'
                     src={Iconlnkl} 
-                    alt="Branxrams Github" />
-                    LinkedIn
+                    alt="Branxrams Linkedin" />
+                    <span>LinkedIn</span>
             </a>
         </section>
     </header>

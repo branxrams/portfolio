@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div>
         <h2 className='text-gray-300 text-center text-3xl font-bold mb-8'>
-            Sobre mi
+            Sobre mí
         </h2>
         <p className='text-gray-400 font-bold text-justify'>
         Soy Ingeniero en Sistemas y Desarrollador Web FullStack con 1 año de experiencia en construcción de sitios web dinámicos.<br /> <br />
